@@ -27,6 +27,23 @@
     "react-dom": "^0.14.7",
     "vinyl-source-stream": "^1.1.0"
   },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "testFileExtensions": [
+      "es6",
+      "js"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "es6"
+    ],
+    "unmockedModulePathPatterns": [
+      "react",
+      "jquery"
+    ],
+    "collectCoverage": true
+  },
   "devDependencies": {
     "babel": "^6.3.13",
     "babel-core": "^6.3.15",
