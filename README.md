@@ -3,6 +3,9 @@ A repository containing a Jest Example for React
 
 > “Jesters do oft prove prophets.” ― William Shakespeare, King Lear
 
+## The Application
+![](./ssHome.jpg)
+
 ## Node/Io.js Notes
 ~~Currently, Jest 0.4 works on Node, while Jest 0.5 works on Io.js. When Node 4.0 comes out, this will no longer be an issue.~~
 
@@ -48,6 +51,11 @@ And an example configuration, also from the docs:
     "scriptPreprocessor": "./preprocessor.js",
 ```
 
+## Running Locally
+```
+npm run test
+``` 
+
 ## Glossary
 ### Jest
 The "default-mocking" framework (is that why they call it Jest?)
@@ -63,13 +71,3 @@ An internet company which maintains Jest, as well as React.
 
 ### TestUtils
 A tool that comes with React that lets you easily generate virtual instances of components for testing. Allows for convenient functions like `findRenderedDOMComponentWithTag` that are somewhat reminiscent of Protractor.
-
-## Resources
-- https://facebook.github.io/jest/
-- https://facebook.github.io/jest/docs/tutorial-react.html
-
-### API References :rocket:
-- https://facebook.github.io/jest/docs/api.html#content
-- https://facebook.github.io/react/docs/component-api.html
-- https://facebook.github.io/react/docs/component-specs.html
-- https://facebook.github.io/flux/docs/testing-flux-applications.html
